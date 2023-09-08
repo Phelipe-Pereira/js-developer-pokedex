@@ -1,18 +1,27 @@
+
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #F6F8FC;
 }
 
 .content {
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
     padding: 1rem;
-    background-color: #fff;
+    background-color: white;
 }
+.content > h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 0px 380px;
+} 
 
 @media screen and (min-width: 992px) {
     .content {
@@ -21,4 +30,4 @@ body {
         margin: 1rem auto;
         border-radius: 1rem;
     }
-}
+  }
